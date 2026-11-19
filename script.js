@@ -119,7 +119,7 @@ navLinks.querySelectorAll("a").forEach((link) => {
 });
 
 // غيّر الرقم إلى رقم واتساب الشركة بصيغة دولية، من غير + أو مسافات.
-const whatsappNumber = "201000000000";
+const whatsappNumber = "201070071097";
 const whatsappMessage = encodeURIComponent("مرحبًا، أود الاستفسار عن خدمات شركة النيل للمقاولات.");
 document.getElementById("whatsappLink").href =
   `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
