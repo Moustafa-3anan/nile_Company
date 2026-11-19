@@ -1,1 +1,263 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شركة النيل للمقاولات العامة والتشطيبات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="شركة النيل">
+      <!-- ضع اللوجو في فولدر assets باسم logo.png -->
+      <img src="assets/logo.png" alt="لوجو شركة النيل" class="company-logo">
+      <span class="brand-name">
+        <strong data-ar="شركة النيل" data-en="Al Nile Company">شركة النيل</strong>
+        <small data-ar="للمقاولات والتشطيبات" data-en="Contracting & Finishing">
+          للمقاولات والتشطيبات
+        </small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+      <a href="#about" data-ar="عن الشركة" data-en="About">عن الشركة</a>
+      <a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+      <a href="#projects" data-ar="سابقة الأعمال" data-en="Projects">سابقة الأعمال</a>
+      <a href="#team" data-ar="كوادرنا" data-en="Our Team">كوادرنا</a>
+      <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+    </nav>
+
+    <button class="language-button" id="languageToggle" type="button">English</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <span class="eyebrow"
+              data-ar="خبرة تُبنى عليها الثقة"
+              data-en="Built on experience and trust">
+          خبرة تُبنى عليها الثقة
+        </span>
+
+        <h1 data-ar="نبني اليوم،<br>لنصنع مستقبلًا أقوى."
+            data-en="Building today,<br>for a stronger tomorrow.">
+          نبني اليوم،<br>لنصنع مستقبلًا أقوى.
+        </h1>
+
+        <p data-ar="شركة النيل للمقاولات العامة والتشطيبات — خبرة في الإنشاءات والبنية التحتية والتشطيبات منذ عام 2016."
+           data-en="Al Nile General Contracting & Finishing — experience in construction, infrastructure, and finishing since 2016.">
+          شركة النيل للمقاولات العامة والتشطيبات — خبرة في الإنشاءات والبنية التحتية والتشطيبات منذ عام 2016.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-light" href="#projects"
+             data-ar="اكتشف أعمالنا" data-en="Explore our work">
+            اكتشف أعمالنا
+          </a>
+          <a class="button button-outline" href="#contact"
+             data-ar="تواصل معنا" data-en="Contact us">
+            تواصل معنا
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>2016</strong>
+            <span data-ar="عام التأسيس" data-en="Established">عام التأسيس</span>
+          </div>
+          <div>
+            <strong>09</strong>
+            <span data-ar="مشروعات مختارة" data-en="Selected projects">مشروعات مختارة</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span data-ar="إشراف هندسي" data-en="Engineering supervision">إشراف هندسي</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-sun"></div>
+        <div class="building building-back"></div>
+        <div class="building building-front">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div class="art-base"></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="eyebrow" data-ar="من نحن" data-en="Who we are">من نحن</span>
+        <h2 data-ar="خبرة في البناء،<br>وثقة في كل تفصيلة."
+            data-en="Experience in construction,<br>care in every detail.">
+          خبرة في البناء،<br>وثقة في كل تفصيلة.
+        </h2>
+      </div>
+
+      <div class="about-copy">
+        <p data-ar="تأسست شركة النيل للمقاولات العامة والتشطيبات عام 2016، وتعمل في مجالات الإنشاءات والبنية التحتية والتشطيبات."
+           data-en="Al Nile General Contracting & Finishing was established in 2016 and works across construction, infrastructure, and finishing.">
+          تأسست شركة النيل للمقاولات العامة والتشطيبات عام 2016، وتعمل في مجالات الإنشاءات والبنية التحتية والتشطيبات.
+        </p>
+        <p data-ar="نعتمد على فنيين ذوي كفاءة وخبرة، وتُنفذ الأعمال تحت إشراف هندسي."
+           data-en="Our experienced technical teams work under engineering supervision.">
+          نعتمد على فنيين ذوي كفاءة وخبرة، وتُنفذ الأعمال تحت إشراف هندسي.
+        </p>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-title-row">
+        <div>
+          <span class="eyebrow" data-ar="ماذا نقدم" data-en="What we do">ماذا نقدم</span>
+          <h2 data-ar="خدمات متكاملة<br>من الهيكل إلى التشطيب."
+              data-en="Complete services<br>from structure to finish.">
+            خدمات متكاملة<br>من الهيكل إلى التشطيب.
+          </h2>
+        </div>
+
+        <p data-ar="نغطي مراحل مختلفة من تنفيذ المشروعات، بخبرة عملية وإشراف هندسي."
+           data-en="We handle multiple stages of project delivery with practical experience and engineering supervision.">
+          نغطي مراحل مختلفة من تنفيذ المشروعات، بخبرة عملية وإشراف هندسي.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <span class="service-number">01</span>
+          <div class="service-icon">⌂</div>
+          <h3 data-ar="الإنشاءات والخرسانات" data-en="Construction & Concrete">الإنشاءات والخرسانات</h3>
+          <p data-ar="أعمال الإنشاءات والخرسانات للمباني والمنشآت."
+             data-en="Construction and concrete works for buildings and facilities.">
+            أعمال الإنشاءات والخرسانات للمباني والمنشآت.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">02</span>
+          <div class="service-icon">▦</div>
+          <h3 data-ar="أعمال البياض" data-en="Plastering">أعمال البياض</h3>
+          <p data-ar="تنفيذ أعمال البياض للمشروعات السكنية والتجارية."
+             data-en="Plastering works for residential and commercial projects.">
+            تنفيذ أعمال البياض للمشروعات السكنية والتجارية.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">03</span>
+          <div class="service-icon">◇</div>
+          <h3 data-ar="الرخام والسيراميك" data-en="Marble & Ceramics">الرخام والسيراميك</h3>
+          <p data-ar="توريد وتركيب الرخام والسيراميك."
+             data-en="Supply and installation of marble and ceramic finishes.">
+            توريد وتركيب الرخام والسيراميك.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">04</span>
+          <div class="service-icon">✳</div>
+          <h3 data-ar="التشطيبات والدهانات" data-en="Finishing & Painting">التشطيبات والدهانات</h3>
+          <p data-ar="أعمال التشطيبات الداخلية والخارجية والدهانات."
+             data-en="Interior and exterior finishing and painting works.">
+            أعمال التشطيبات الداخلية والخارجية والدهانات.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <span class="eyebrow" data-ar="أعمال نفخر بها" data-en="Selected work">أعمال نفخر بها</span>
+        <h2 data-ar="سابقة الأعمال" data-en="Our projects">سابقة الأعمال</h2>
+        <p data-ar="نماذج من مشروعات نفذتها الشركة."
+           data-en="A selection of projects delivered by our team.">
+          نماذج من مشروعات نفذتها الشركة.
+        </p>
+      </div>
+
+      <!-- كروت المشروعات ينشئها ملف script.js -->
+      <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <section class="team-section section" id="team">
+      <div>
+        <span class="eyebrow team-label">
+          <!-- اللوجو بجانب عنوان كوادر العمل -->
+          <img src="assets/logo.png" alt="لوجو شركة النيل" class="section-logo">
+          <span data-ar="كوادر العمل" data-en="Our team">كوادر العمل</span>
+        </span>
+
+        <h2 data-ar="فريق محترف،<br>وتنفيذ تحت إشراف هندسي."
+            data-en="Skilled people,<br>work under engineering supervision.">
+          فريق محترف،<br>وتنفيذ تحت إشراف هندسي.
+        </h2>
+
+        <p data-ar="جميع الفنيين العاملين بالشركة ذوو كفاءة عالية وخبرة، ويتم العمل تحت إشراف هندسي."
+           data-en="Our skilled and experienced technicians work under engineering supervision.">
+          جميع الفنيين العاملين بالشركة ذوو كفاءة عالية وخبرة، ويتم العمل تحت إشراف هندسي.
+        </p>
+      </div>
+    </section>
+
+    <!-- قسم تواصل واحد: زر الشركة وتحته زر المطور -->
+    <section class="contact-section section" id="contact">
+      <div>
+        <span class="eyebrow" data-ar="تواصل معنا" data-en="Contact us">تواصل معنا</span>
+        <h2 data-ar="لنتحدث عن<br>مشروعك القادم."
+            data-en="Let's discuss<br>your next project.">
+          لنتحدث عن<br>مشروعك القادم.
+        </h2>
+        <p data-ar="راسلنا لمناقشة مشروعك أو الاستفسار عن خدماتنا."
+           data-en="Message us to discuss your project or ask about our services.">
+          راسلنا لمناقشة مشروعك أو الاستفسار عن خدماتنا.
+        </p>
+      </div>
+
+      <div class="contact-actions">
+        <!-- رقم واتساب الشركة: حدّثه كذلك في script.js إذا كان السكريبت يغيّر الرابط -->
+        <a class="button button-light" id="whatsappLink"
+           href="https://wa.me/201070071097"
+           target="_blank" rel="noopener">
+          <span class="contact-icon">◉</span>
+          <span data-ar="تواصل عبر واتساب الشركة" data-en="Contact us on WhatsApp">
+            تواصل عبر واتساب الشركة
+          </span>
+        </a>
+
+        <!-- رقم واتساب المطور -->
+        <a class="button developer-button"
+           href="https://wa.me/201004195170"
+           target="_blank" rel="noopener">
+          <span class="contact-icon">◉</span>
+          <span data-ar="تواصل مع المطور" data-en="Contact the developer">
+            تواصل مع المطور
+          </span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">
+      <img src="assets/logo.png" alt="لوجو شركة النيل" class="company-logo">
+      <span data-ar="شركة النيل للمقاولات والتشطيبات"
+            data-en="Al Nile Contracting & Finishing">
+        شركة النيل للمقاولات والتشطيبات
+      </span>
+    </a>
+
+    <span data-ar="© جميع الحقوق محفوظة" data-en="© All rights reserved">
+      © جميع الحقوق محفوظة
+    </span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
